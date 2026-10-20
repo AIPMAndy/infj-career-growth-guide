@@ -1,0 +1,22 @@
+name: Verify content
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test catalog and site references
+        run: python3 -m unittest discover -s tests -v
+      - name: Check JavaScript syntax
+        run: |
+          node --check app.js
+          node --check data/catalog.js
