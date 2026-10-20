@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#101423">
+  <meta name="description" content="INFJ 升职加薪必看书影音指南：41 部电影、电视剧、书籍和纪录片，练习职场表达、价值证明、向上管理、谈判加薪、带队晋升。免费开源。">
+  <meta name="keywords" content="INFJ,升职加薪,职业成长,职场书单,电影推荐,电视剧推荐,职场沟通,GitHub开源">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="INFJ 升职加薪必看书影音指南 · AI 酋长 Andy">
+  <meta property="og:description" content="41 部书影音 × 6 类职场能力。每一部，都有一个可以立刻开始的行动。">
+  <meta property="og:image" content="https://aipmandy.github.io/infj-career-growth-guide/assets/social-preview.svg">
+  <meta property="og:url" content="https://aipmandy.github.io/infj-career-growth-guide/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <title>INFJ 升职加薪必看书影音指南｜41 部电影、书籍与电视剧</title>
+</head>
+<body>
+  <div class="ambient" aria-hidden="true"></div>
+  <header class="header">
+    <a class="logo" href="#top" aria-label="返回首页"><span class="logo-dot">I</span><span>INFJ<span class="logo-light"> / CAREER</span></span></a>
+    <nav class="nav" aria-label="主导航">
+      <a href="#library">作品图鉴</a><a href="#roadmap">行动路线</a><a href="#about">项目说明</a>
+      <a class="nav-git" href="https://github.com/AIPMAndy/infj-career-growth-guide" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+  <main id="top">
+    <section class="hero wrap">
+      <div class="hero-left">
+        <p class="eyebrow"><span class="eyebrow-line"></span> FREE & OPEN SOURCE · 2026 EDITION</p>
+        <h1>你很会做事。<br><em>也该被看见了。</em></h1>
+        <p class="hero-body">给想升职、加薪、成为管理者的 INFJ 读者。<br>把书和电影里的方法，变成你职场里的真实行动。</p>
+        <div class="hero-actions"><a class="primary-btn" href="#library">开始探索 41 部作品 <span>↗</span></a><a class="secondary-btn" href="#roadmap">先做 7 天成长计划 →</a></div>
+        <p class="hero-footnote">人格标签只用于组织选题，不决定你的能力或职业上限。本站不承诺升职加薪结果。</p>
+      </div>
+      <div class="hero-panel" aria-label="项目核心数据">
+        <div class="hero-deco">GROW<br>INTO<br>MORE<span class="dot-square">✳</span></div>
+        <div class="hero-panel-bottom"><span>FIELD GUIDE NO. 02</span><span>2026 · ANDY</span></div>
+      </div>
+    </section>
+    <section class="metrics wrap" aria-label="项目概览">
+      <div><strong>41<span>部</span></strong><span>精选作品</span></div>
+      <div><strong>06<span>条</span></strong><span>职场能力路线</span></div>
+      <div><strong>07<span>天</span></strong><span>可执行入门计划</span></div>
+      <div><strong>100<span>%</span></strong><span>免费开源</span></div>
+    </section>
+    <section id="library" class="library-section wrap">
+      <div class="section-head"><div><p class="eyebrow">01 / THE COLLECTION</p><h2>从一个职场问题开始。</h2><p>没有必须看完的清单。先找到你眼下最需要解决的难题。</p></div><div class="search-meta" id="matchCount" aria-live="polite">41 个结果</div></div>
+      <div class="filterbar">
+        <label class="search-box"><span aria-hidden="true">⌕</span><span class="sr-only">搜索作品或问题</span><input id="search" type="search" placeholder="搜索作品、职场问题、关键词…" autocomplete="off"></label>
+        <label class="select-box"><span class="sr-only">按能力筛选</span><select id="skillFilter"><option value="">全部能力</option></select></label>
+        <label class="select-box"><span class="sr-only">按类型筛选</span><select id="typeFilter"><option value="">全部类型</option><option>电影</option><option>电视剧</option><option>书籍</option><option>纪录片</option></select></label>
+      </div>
+      <div class="filter-chips" id="skillChips" aria-label="能力快捷筛选"></div>
+      <div class="toggle-bar"><label><input id="onlySaved" type="checkbox"> 只看收藏</label><label><input id="hideDone" type="checkbox"> 隐藏已完成</label><button type="button" class="text-button" id="randomBtn">🎲 帮我选一部</button></div>
+      <div id="cards" class="cards"></div>
+      <div id="empty" class="empty" hidden><h3>暂时没有匹配的作品</h3><p>换个关键词或清除筛选条件试试。</p><button type="button" class="secondary-btn" id="resetBtn">清除筛选</button></div>
+    </section>
+    <section id="roadmap" class="roadmap-section">
+      <div class="wrap"><div class="section-head"><div><p class="eyebrow">02 / FROM WATCHING TO DOING</p><h2>知道很多道理，不如练一次。</h2><p>每一个任务都需要现实行动，不靠打卡制造成就感。</p></div><button type="button" id="exportBtn" class="outline-btn">导出我的完成记录 ↓</button></div>
+        <div class="roadmap-grid"><div class="plan-card"><div class="plan-top"><span class="plan-kicker">START HERE</span><strong>7 <small>DAYS</small></strong></div><h3>从「被动做事」到「主动表达」</h3><p class="plan-desc">每天一个具体动作，7 天跑通职业价值表达的最小闭环。</p><div id="plan7"></div></div>
+        <div class="plan-card muted"><div class="plan-top"><span class="plan-kicker">LEVEL UP</span><strong>30 <small>DAYS</small></strong></div><h3>为下一次晋升谈话准备证据</h3><p class="plan-desc">四周围绕成果、沟通、协作和谈判，每周交付一个可展示的产物。</p><div id="plan30"></div></div></div>
+        <p class="privacy-note">✓ 收藏、阅读进度和计划勾选仅保存在你当前浏览器。本网站无需登录、不上传个人信息，换设备或清理缓存后可能丢失。</p>
+      </div>
+    </section>
+    <section id="about" class="about-section wrap"><div><p class="eyebrow">03 / WHY THIS EXISTS</p><h2>作品给启发。<br>行动带来变化。</h2></div><div class="about-right"><p>我是 AI 酋长 Andy，做过腾讯、百度的 AI 产品工作，也做过 AI 创业公司 VP。现在主要帮助职场人解决职业发展、求职和 AI 能力成长的问题。</p><p>很多人在工作里很负责，却很少系统整理成果、争取资源或谈清楚下一步。这个项目想把书影音里可借鉴的片段，变成你能使用的职场练习。</p><p class="about-notice">INFJ 属于流行人格类型标签，不能科学可靠地预测职业表现或晋升机会。影视剧情仅供分析与启发，请不要模仿不当管理行为。内容属于一般职业发展建议。</p><div class="about-cta"><a class="primary-btn" href="https://metaver.vip/services" target="_blank" rel="noopener noreferrer">了解职业成长陪跑 ↗</a><a href="https://github.com/AIPMAndy/infj-career-growth-guide" target="_blank" rel="noopener noreferrer">在 GitHub 提建议 / Star ↗</a></div></div></section>
+  </main>
+  <footer class="footer wrap"><span>© 2026 AI 酋长 Andy · MIT License</span><span><a href="https://metaver.vip/">metaver.vip</a> · <a href="https://github.com/AIPMAndy/intj-growth-guide">INTJ 姊妹篇</a></span></footer>
+  <dialog id="detailDialog" aria-labelledby="dialogTitle"><div id="detailContent"></div></dialog>
+  <script src="data/catalog.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
