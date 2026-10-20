@@ -45,13 +45,12 @@
 
 ## 如何部署
 
-仓库建议名称：`infj-career-growth-guide`，属于 `AIPMAndy` 账号。
+**公开仓库：** https://github.com/AIPMAndy/infj-career-growth-guide ，完整源码已提交至 `main`。网站需要仓库所有者在 GitHub Pages 中启用一次发布来源。
 
-1. 在 GitHub 创建 **Public** 仓库 `infj-career-growth-guide`。
-2. 将本项目的所有文件推送到仓库的 `main` 分支根目录（保留 `index.html` 在根目录）。
-3. 打开仓库 **Settings → Pages**，选择 **Build and deployment → Source: Deploy from a branch**。
-4. 选择 **Branch: main / (root)**，点击 Save。待 GitHub Pages 发布后，访问 `https://aipmandy.github.io/infj-career-growth-guide/`。
-5. 将此网址填写到仓库 About → Website，并可添加 topics：`infj`, `career-growth`, `book-list`, `movie-list`, `github-pages`, `chinese`。
+1. 打开 [本仓库 GitHub Pages 设置](https://github.com/AIPMAndy/infj-career-growth-guide/settings/pages)。
+2. 在 **Build and deployment** 中选择 **Source: Deploy from a branch**。
+3. 选择 **Branch: main / (root)** 并点击 **Save**。发布成功后访问 `https://aipmandy.github.io/infj-career-growth-guide/`。
+4. 可以将在线网址填入仓库 About → Website，并添加 topics：`infj`, `career-growth`, `book-list`, `movie-list`, `github-pages`, `chinese`。
 
 无需安装依赖；本地双击 `index.html` 可查看。使用简单本地 HTTP 服务也可以：
 
@@ -92,9 +91,9 @@ LICENSE                   # MIT
 
 同系列：[INTJ 成长书影音图鉴](https://github.com/AIPMAndy/intj-growth-guide)。
 
-### 从本地一键创建仓库（可选）
+### 本地发布脚本说明
 
-如果已经安装并登录 GitHub CLI (`gh auth login`)，在解压目录运行 `bash publish.sh`。脚本只允许**第一次发布全新的公开仓库**，如果仓库已存在或目录已有 Git 记录会退出，不会覆盖任何现有项目。随后按上述步骤在 Pages 设置里打开静态网站。
+`publish.sh` 是项目首次创建之前准备的脚本。**仓库现在已经存在，不需要再次运行这个脚本**；为保护现有代码，脚本检测到仓库存在会安全退出。以 GitHub 当前 `main` 分支为准。
 
 ### 自动检查
 
