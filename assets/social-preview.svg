@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f0cee9"/><stop offset=".65" stop-color="#d8b9ff"/><stop offset="1" stop-color="#a69deb"/></linearGradient></defs>
+<rect width="1200" height="630" fill="#101423"/>
+<rect x="735" y="40" width="415" height="550" rx="20" fill="url(#g)"/>
+<text x="786" y="195" font-family="Arial,sans-serif" font-size="77" font-weight="800" fill="#20213c">GROW</text><text x="786" y="285" font-family="Arial,sans-serif" font-size="77" font-weight="800" fill="#20213c">INTO</text><text x="786" y="375" font-family="Arial,sans-serif" font-size="77" font-weight="800" fill="#20213c">MORE</text>
+<text x="62" y="111" font-family="Arial,sans-serif" font-size="23" font-weight="bold" letter-spacing="3" fill="#e0b5ff">INFJ / CAREER FIELD GUIDE 2026</text>
+<text x="62" y="227" font-family="'Noto Sans CJK SC','PingFang SC',sans-serif" font-size="56" font-weight="bold" fill="#ffffff">升职加薪必看</text><text x="62" y="317" font-family="'Noto Sans CJK SC','PingFang SC',sans-serif" font-size="72" font-weight="bold" fill="#e0b5ff">书影音指南</text>
+<text x="64" y="397" font-family="'Noto Sans CJK SC','PingFang SC',sans-serif" font-size="26" fill="#c7c7d5">41 部作品 · 6 条职业成长路线</text>
+<rect x="63" y="473" width="366" height="70" rx="6" fill="#e0b5ff"/><text x="95" y="517" font-family="'Noto Sans CJK SC','PingFang SC',sans-serif" font-size="24" font-weight="bold" fill="#171424">免费开源 · AI 酋长 Andy ↗</text>
+</svg>
