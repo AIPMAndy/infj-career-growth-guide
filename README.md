@@ -16,7 +16,7 @@
 
 ## 🌐 在线阅读
 
-**[互动网站](https://aipmandy.github.io/infj-career-growth-guide/)** （GitHub Pages 发布成功后生效）
+**[互动网站](https://aipmandy.github.io/infj-career-growth-guide/)**
 
 **[作品数据](data/catalog.json)** · **[7 / 30 天行动指南](guides/7-30-day-plan.md)** · **[记录模板](templates/career-evidence.md)**
 
@@ -61,8 +61,6 @@
 
 若站点显示 404，请打开 [GitHub Pages 设置](https://github.com/AIPMAndy/infj-career-growth-guide/settings/pages)，检查 **Build and deployment → Source** 是否选择 **GitHub Actions**，并确认部署任务成功。
 
-建议将在线网站添加到仓库 About → Website。
-
 无需安装依赖。本地可直接打开 `index.html`，或执行：
 
 ```bash
@@ -99,10 +97,6 @@ LICENSE                   # MIT
 欢迎提出 Issue / PR，尤其欢迎补充中国本土职场案例、不同职业阶段的有效练习。⭐
 
 同系列：[INTJ 成长书影音图鉴](https://github.com/AIPMAndy/intj-growth-guide)。
-
-### 本地发布脚本说明
-
-`publish.sh` 是项目首次创建之前准备的脚本。**仓库现在已经存在，不需要再次运行这个脚本**；为保护现有代码，脚本检测到仓库存在会安全退出。以 GitHub 当前 `main` 分支为准。
 
 ### 自动检查
 
