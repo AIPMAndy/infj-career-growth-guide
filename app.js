@@ -38,14 +38,28 @@
   }
   function showDetail(id){
     const w=catalog.find(w=>w.id===id);if(!w)return;
-    $('#detailContent').innerHTML=`<div class="dialog-inner"><button type="button" class="dialog-close" data-close aria-label="关闭详情">×</button><p class="dialog-eyebrow">${esc(w.type)} &nbsp;/&nbsp; ${esc(w.skill)}</p><h2 id="dialogTitle">${esc(w.title)}</h2><p class="dialog-en">${esc(w.original)}</p><div class="dialog-panel"><h3>01 · 你可能遇到的问题</h3><p>${esc(w.problem)}</p></div><div class="dialog-panel"><h3>02 · 值得借鉴的思路</h3><p>${esc(w.insight)}</p></div><div class="dialog-panel"><h3>03 · 今天就能做的事</h3><p>${esc(w.action)}</p></div><div class="dialog-panel"><h3>04 · 别学偏了</h3><p>${esc(w.caution)}</p></div><div class="dialog-actions"><button type="button" data-save="${esc(w.id)}" class="${has('saved',w.id)?'selected':''}">${has('saved',w.id)?'♥ 已收藏':'♡ 加入收藏'}</button><button type="button" data-done="${esc(w.id)}" class="${has('done',w.id)?'selected':''}">${has('done',w.id)?'☑ 已完成':'☐ 标记完成'}</button><button type="button" data-copy="${esc(w.id)}">复制此作品链接 ↗</button></div></div>`;
+    $('#detailContent').innerHTML=`<div class="dialog-inner"><button type="button" class="dialog-close" data-close aria-label="关闭详情">×</button><p class="dialog-eyebrow">${esc(w.type)} &nbsp;/&nbsp; ${esc(w.skill)}</p><h2 id="dialogTitle">${esc(w.title)}</h2><p class="dialog-en">${esc(w.original)}</p><div class="dialog-panel"><h3>01 · 你可能遇到的问题</h3><p>${esc(w.problem)}</p></div><div class="dialog-panel"><h3>02 · 值得借鉴的思路</h3><p>${esc(w.insight)}</p></div><div class="dialog-panel"><h3>03 · 今天就能做的事</h3><p>${esc(w.action)}</p></div><div class="dialog-panel"><h3>04 · 别学偏了</h3><p>${esc(w.caution)}</p></div><div class="dialog-actions"><button type="button" data-save="${esc(w.id)}" class="${has('saved',w.id)?'selected':''}">${has('saved',w.id)?'♥ 已收藏':'♡ 加入收藏'}</button><button type="button" data-done="${esc(w.id)}" class="${has('done',w.id)?'selected':''}">${has('done',w.id)?'☑ 已完成':'☐ 标记完成'}</button><button type="button" data-copy="${esc(w.id)}">复制此作品链接 ↗</button></div><div class="detail-contact"><p>想把这条方法用到自己的晋升、谈薪或职业选择中？可以联系 Andy 讨论具体问题。</p><div class="detail-contact-actions"><button type="button" class="copy-wechat" data-copy-wechat>复制微信 AIPMAndy</button><a href="https://metaver.vip/services" target="_blank" rel="noopener noreferrer">查看官网咨询服务 ↗</a></div></div></div>`;
     const d=$('#detailDialog'); if(!d.open) d.showModal();
     d.querySelector('[data-close]').focus();
   }
   const change = (key,id) => { toggle(key,id);render(); const dlg=$('#detailDialog');if(dlg.open && catalog.some(w=>w.id===id))showDetail(id); };
   function clearFilters(){ state.q='';state.skill='';state.type='';state.onlySaved=false;state.hideDone=false;$('#search').value='';$('#typeFilter').value='';$('#onlySaved').checked=false;$('#hideDone').checked=false;render(); }
+  function copyWechat(button){
+    const id='AIPMAndy';
+    const notify=()=>{
+      const status=$('#copyStatus'); if(status)status.textContent='微信号已复制：'+id;
+      const original=button.textContent;
+      button.textContent='✓ 已复制：'+id;
+      setTimeout(()=>{if(button.isConnected)button.textContent=original;},1900);
+    };
+    const fallback=()=>window.prompt('复制微信号，在微信里搜索添加：',id);
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(id).then(notify).catch(fallback);
+    } else fallback();
+  }
   document.addEventListener('click',event=>{
-    const t=event.target.closest('[data-save],[data-done],[data-open],[data-close],[data-skill],[data-copy]');if(!t)return;
+    const t=event.target.closest('[data-save],[data-done],[data-open],[data-close],[data-skill],[data-copy],[data-copy-wechat]');if(!t)return;
+    if(t.hasAttribute('data-copy-wechat')){copyWechat(t);return;}
     if(t.dataset.save){change('saved',t.dataset.save);return;}
     if(t.dataset.done){change('done',t.dataset.done);return;}
     if(t.hasAttribute('data-open')){showDetail(t.dataset.open);return;}
