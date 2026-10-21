@@ -2,7 +2,15 @@
 
 > 41 部电影、电视剧、书籍与纪录片，6 条职业成长路线。每部都配有一个职场问题、一条可执行练习，以及避免误学的提醒。
 
-作者：**AI 酋长 Andy** · [个人网站](https://metaver.vip/) · [职业成长与求职陪跑](https://metaver.vip/services) · 微信 `AIPMAndy`
+作者：**AI 酋长 Andy** · [官网 metaver.vip](https://metaver.vip/) · [咨询与陪跑服务](https://metaver.vip/services) · 微信 `AIPMAndy`
+
+### 📩 遇到职业问题？可以联系 Andy
+
+如果你正在准备求职、升职、加薪，或者卡在职业方向上，可以先使用免费指南，再了解我的咨询服务。
+
+**微信：`AIPMAndy`（添加时备注「INFJ 职场指南」）** · **[查看官网](https://metaver.vip/)** · **[咨询与陪跑服务](https://metaver.vip/services)**
+
+> 本项目全部内容免费开源。咨询与陪跑为独立付费服务，具体服务以官网说明为准，不承诺特定求职或加薪结果。
 
 ![项目分享图](assets/social-preview.svg)
 
@@ -45,21 +53,22 @@
 
 ## 如何部署
 
-**公开仓库：** https://github.com/AIPMAndy/infj-career-growth-guide ，完整源码已提交至 `main`。网站需要仓库所有者在 GitHub Pages 中启用一次发布来源。
+**公开仓库：** https://github.com/AIPMAndy/infj-career-growth-guide
 
-1. 打开 [本仓库 GitHub Pages 设置](https://github.com/AIPMAndy/infj-career-growth-guide/settings/pages)。
-2. 在 **Build and deployment** 中选择 **Source: Deploy from a branch**。
-3. 选择 **Branch: main / (root)** 并点击 **Save**。发布成功后访问 `https://aipmandy.github.io/infj-career-growth-guide/`。
-4. 可以将在线网址填入仓库 About → Website，并添加 topics：`infj`, `career-growth`, `book-list`, `movie-list`, `github-pages`, `chinese`。
+**互动网站：** https://aipmandy.github.io/infj-career-growth-guide/
 
-无需安装依赖；本地双击 `index.html` 可查看。使用简单本地 HTTP 服务也可以：
+网站使用 [GitHub Actions 自动部署](.github/workflows/deploy-pages.yml)，推送到 `main` 后自动发布，可以在 [部署记录](https://github.com/AIPMAndy/infj-career-growth-guide/actions/workflows/deploy-pages.yml) 检查。
+
+若站点显示 404，请打开 [GitHub Pages 设置](https://github.com/AIPMAndy/infj-career-growth-guide/settings/pages)，检查 **Build and deployment → Source** 是否选择 **GitHub Actions**，并确认部署任务成功。
+
+建议将在线网站添加到仓库 About → Website。
+
+无需安装依赖。本地可直接打开 `index.html`，或执行：
 
 ```bash
 python3 -m http.server 8000
 # 打开 http://localhost:8000/
 ```
-
-如需自动化部署，可后续改用 GitHub Actions，但不要同时启用互相冲突的两种发布方式。本项目默认走 `main / root` 分支模式。
 
 ## 仓库结构
 
