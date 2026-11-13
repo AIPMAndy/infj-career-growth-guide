@@ -1,5 +1,16 @@
 # INFJ 升职加薪必看书影音指南
 
+<!-- andy-pdf-edition:start -->
+## 精美 PDF 电子书
+
+[**免费下载《INFJ 升职加薪书影音指南》**](pdf/infj-career-growth-guide-guide.pdf) · [直接下载 PDF](https://github.com/AIPMAndy/infj-career-growth-guide/raw/refs/heads/main/pdf/infj-career-growth-guide-guide.pdf)
+
+**34 页 · A5 手机阅读版 · 可点击目录 · 0.65 MB**  
+整理日期：2026-11-13。包含完整实操正文、案例、模板与原始来源；平台规则与价格沿用原资料的核查日期。
+
+**作者与服务（广告）**：AI 酋长 Andy · 个人微信 **AIPMAndy** · [个人官网](https://metaver.vip/) · [公司官网](https://www.a6no1.cn/)。免费教程可直接使用，咨询与合作自愿选择。
+<!-- andy-pdf-edition:end -->
+
 > 41 部电影、电视剧、书籍与纪录片，6 条职业成长路线。每部都配有一个职场问题、一条可执行练习，以及避免误学的提醒。
 
 **INFJ 适合看哪些书和电影来提升职场能力？** 这份由 AI 酋长 Andy 整理的免费开源指南收录 41 部电影、电视剧、书籍与纪录片，按职业定位、价值表达、向上管理、边界与谈判、影响力与协作、带队与晋升 6 条路线排列，每部配一个职场问题和一条可执行练习。

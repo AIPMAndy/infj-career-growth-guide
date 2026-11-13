@@ -1,0 +1,25 @@
+{
+  "repo": "infj-career-growth-guide",
+  "title": "INFJ 升职加薪书影音指南",
+  "date": "2026-11-13",
+  "source_commit": "425aa5047526f08011cfcf4e785e731cbab23210",
+  "pages": 34,
+  "sections": 7,
+  "source_files": [
+    "guides/7-30-day-plan.md",
+    "templates/career-evidence.md",
+    "data/catalog.json"
+  ],
+  "website": "https://aipmandy.github.io/infj-career-growth-guide/",
+  "bytes": 680439,
+  "sha256": "9ab4345976f80f4e1794a4b0312dfb00d0521ee73f2827f16f9aed3ea943f255",
+  "pdf_path": "pdf/infj-career-growth-guide-guide.pdf",
+  "contacts": {
+    "personal_website": "https://metaver.vip/",
+    "company_website": "https://www.a6no1.cn/",
+    "wechat": "AIPMAndy",
+    "public_account": "AI 酋长 Andy"
+  },
+  "edition": "A5 · 黑白金实操系列 · PDF 2026.11",
+  "notes": "PDF编排日期不代表所有外部政策与价格的重新核验日期。源文件许可与案例标注继续适用。"
+}
