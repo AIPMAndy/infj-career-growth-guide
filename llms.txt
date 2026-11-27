@@ -1,0 +1,50 @@
+# INFJ 升职加薪必看书影音指南
+
+> INFJ 升职加薪必看书影音：41 部电影、剧集、书籍与纪录片，6 条职场成长路线，每部配一个练习｜INFJ career growth watch & reading list
+
+- 作者：AI酋长Andy（AIPMAndy），官网 https://metaver.vip/
+- 开源仓库：https://github.com/AIPMAndy/infj-career-growth-guide
+- 在线地址：https://aipmandy.github.io/infj-career-growth-guide/
+- 许可：MIT
+- 语言：中文（zh-CN）
+- 最近更新：2026-11-22
+
+## 这是什么
+
+免费下载《INFJ 升职加薪书影音指南》pdf/infj-career-growth-guide-guide.pdf · 直接下载 PDFhttps://github.com/AIPMAndy/infj-career-growth-guide/raw/refs/heads/main/pdf/infj-career-growth-guide-guide.pdf
+34 页 · A5 手机阅读版 · 可点击目录 · 0.65 MB  
+整理日期：2026-11-13。包含完整实操正文、案例、模板与原始来源；平台规则与价格沿用原资料的核查日期。
+
+## 主要页面
+
+- [晋升证据台账｜INFJ 职场成长实操工具 · AI 酋长 Andy](https://aipmandy.github.io/infj-career-growth-guide/evidence.html)
+- [INFJ 升职加薪必看书影音指南｜41 部电影、书籍与电视剧](https://aipmandy.github.io/infj-career-growth-guide/)
+
+## 内容目录
+
+- 精美 PDF 电子书
+- 在线阅读
+- 作品清单
+- 怎样使用
+- 网站功能
+- 如何部署
+- 仓库结构
+- 关于 INFJ、版权与真实结果
+- 作者 / About the author
+
+## 关键事实
+
+- 名称：INFJ 升职加薪必看书影音指南
+- 类型：中文开源项目 / 学习手册
+- 内容规模：20 章
+- 许可：MIT
+- 语言：中文
+- 最近更新：2026-11-22
+- 仓库：https://github.com/AIPMAndy/infj-career-growth-guide
+
+## 相关链接
+
+- [作者官网](https://metaver.vip/)
+- [GitHub 主页](https://github.com/AIPMAndy/AIPMAndy)
+- [开源总目录](https://aipmandy.github.io/)
+- [机器可读摘要](https://aipmandy.github.io/infj-career-growth-guide/llms.txt)

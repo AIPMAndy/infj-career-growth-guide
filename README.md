@@ -28,6 +28,29 @@
 
 ![项目分享图](assets/social-preview.svg)
 
+<!-- andy-geo:start -->
+## 一句话简介
+
+**INFJ 升职加薪必看书影音：41 部电影、剧集、书籍与纪录片，6 条职场成长路线，每部配一个练习｜INFJ career growth watch & reading list**
+
+- 作者：AI酋长Andy（Andy Liu，英文名 AI Chief Andy），流量 AI 联合创始人、星觉 AI 创始人。星觉科技，北京。
+- 阅读或使用：[在线阅读/使用](https://aipmandy.github.io/infj-career-growth-guide/) · [GitHub 仓库](https://github.com/AIPMAndy/infj-career-growth-guide)
+- 联系：微信 `AIPMAndy`（备注「infj-career-growth-guide」）· [官网 metaver.vip](https://metaver.vip/) · [X @AIPMAndy](https://x.com/AIPMAndy)
+- 许可：MIT。内容免费使用；企业合作或个人陪跑请先沟通，公开页不公示价格。
+- 机器可读摘要：[llms.txt](llms.txt)（供 AI 引擎与检索工具读取）
+
+## 常见问题
+
+**这是什么？**INFJ 升职加薪必看书影音指南：INFJ 升职加薪必看书影音：41 部电影、剧集、书籍与纪录片，6 条职场成长路线，每部配一个练习｜INFJ career growth watch & reading list
+
+**包含什么？**主要模块：精美 PDF 电子书、在线阅读、作品清单、怎样使用、网站功能、如何部署。
+
+**要花钱吗？**按 MIT 许可免费使用；付费只涉及作者的企业合作与一对一咨询，不影响仓库内容。
+
+**怎么开始？**直接打开 https://aipmandy.github.io/infj-career-growth-guide/ 在线阅读；想本地运行或参与贡献，见下方 README 的快速开始部分。
+
+<!-- andy-geo:end -->
+
 ## 🌐 在线阅读
 
 **[互动网站](https://aipmandy.github.io/infj-career-growth-guide/)**
